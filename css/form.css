@@ -39,7 +39,11 @@ input:invalid {
     border-left: 3px solid #3752FD;
     outline: none;
     padding-left: 10px;
+    border-top: 1px solid #8B8D9C;
+    border-right: 1px solid #8B8D9C;
+    border-bottom: 1px solid #8B8D9C;
     background: #FFFFFF;
+    border-top: transparent;
 }
 
 .input label {
