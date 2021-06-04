@@ -12,9 +12,9 @@ Design: [Front-end-testas](https://cdn.discordapp.com/attachments/85024553383886
 ## Project features
 
 - Github pages
-- multi-page (sign up, sign in, forgot password)
+- multi-page (sign-up, sign-in, forgot password)
 - desktop only
-- css .classes
+- css .classes 
 - form
 
 ## Full task details
