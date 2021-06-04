@@ -7,9 +7,42 @@
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/form.css">
     <link rel="stylesheet" href="../css/button.css">
-    <title>Forgot password&quest;</title>
+    <title>Sign in</title>
+    <style>
+        .bottom-links {
+            display: none;
+        }
+        .buttons {
+            margin-top: 30px;
+        }
+    </style>
 </head>
 <body>
-    FORGOT PASSWORD &quest;
+    <main>
+        <div class="left-column">
+            <h2 class="logo">Fcuksense</h2>
+            <h1 class="main-title">Artificial intelligence driving results for the travel industry</h1>
+            <p class="welcome">Please enter your email for password recovery.</p>
+            <form class="form">
+                <div class="form-row input">
+                    <label for="email">Email adress</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="form-row buttons">
+                    <button class="button blue">Recover</button>
+                    <a class="button white" href="../sign-up/">Sign up</a>
+                </div>
+            </form>
+            <div class="bottom-links">
+                <p class="bottom-text">Or login with</p>
+                <a href="#" class="links" target="_blank">Facebook</a>
+                <a href="#" class="links" target="_blank">Linkedin</a>
+                <a href="#" class="links" target="_blank">Google</a>
+            </div>
+        </div>
+        <div class="right-column">
+            <img src="../img/background.jpg" alt="background image" class="background">
+        </div>
+    </main>
 </body>
 </html>
