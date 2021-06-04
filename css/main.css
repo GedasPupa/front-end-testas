@@ -7,3 +7,45 @@ body * {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+main {
+    border: 1px solid black;
+    display: flex;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.left-column {
+    flex-direction: column;
+    width: 42%;
+    align-self: center;
+    padding: 0 4% 0 6%;
+}
+
+.logo {
+    color: #3752FD;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.main-title {
+    text-transform: capitalize;
+    font-size: 23px;
+    line-height: 32px;
+    margin-top: 60px;
+}
+
+.welcome {
+    font-size: 14px;
+    font-weight: 500;
+    color: #8B8D9C;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+
+
+.right-column {
+    border: 1px solid green;
+    width: 58%;
+    height: 100vh;
+}
