@@ -22,16 +22,20 @@
 }
 
 .blue:hover {
-    color: #3752FD;
-    background-color: #FFFFFF;
+    box-shadow: 4px 4px 8px #3752FD;
+    cursor: pointer;
 }
 
 .white {
     color: #3752FD;
     background-color: #FFFFFF;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 30px;
+    padding-left: 20px;
 }
 
 .white:hover {
-    color: #FFFFFF;
-    background-color: #3752FD;
+    box-shadow: 4px 4px 8px #3752FD;
+    cursor: pointer;
 }

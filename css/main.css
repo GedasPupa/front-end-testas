@@ -8,7 +8,6 @@ body * {
 }
 
 main {
-    border: 1px solid black;
     display: flex;
     width: 960px;
     margin: 0 auto;
@@ -19,6 +18,8 @@ main {
     width: 42%;
     align-self: center;
     padding: 0 4% 0 6%;
+    color: #8B8D9C;
+    /* background-image: url("../img/background.jpg"); */
 }
 
 .logo {
@@ -37,15 +38,30 @@ main {
 .welcome {
     font-size: 14px;
     font-weight: 500;
-    color: #8B8D9C;
     margin-top: 15px;
     margin-bottom: 35px;
 }
 
-
+.bottom-links {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-size: 12px;
+    margin-top: 40px;
+}
+.links {
+    font-weight: bold;
+    color: #3752FD;
+    text-decoration: none;
+    margin-left: 25px;
+}
 
 .right-column {
-    border: 1px solid green;
     width: 58%;
     height: 100vh;
+    /* border: 1px solid black; */
+}
+
+.background {
+    height: 100%;
 }
