@@ -7,9 +7,65 @@
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/form.css">
     <link rel="stylesheet" href="../css/button.css">
-    <title>Sign up</title>
+    <style>
+        .checkbox > label {
+            width: 100%;
+            margin-left: 5px;
+        }
+        /* .main-title {
+            margin: 25px 0;
+        }
+        .bottom-links {
+            margin-top: 20px;
+        } */
+    </style>
+    <title>Sign in</title>
 </head>
 <body>
-    SIGN-UP
+    <main>
+        <div class="left-column">
+            <h2 class="logo">Fcuksense</h2>
+            <h1 class="main-title">Artificial intelligence driving results for the travel industry</h1>
+            <p class="welcome">Welcome! Please register.</p> <!-- šią eilutę/tekstą šiam puslapiui siūlau iškrpti ir siaurinti paraštes: žr. komentarus <style> tag'e) -->
+            <form class="form">
+                <div class="form-row input">
+                    <label for="username">User name</label>
+                    <input type="text" name="username" id="username" required>
+                </div>
+                <div class="form-row input">
+                    <label for="email">Email adress</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="form-row input">
+                    <label for="password">Password                    </label>
+
+                    <input type="password" name="password" id="password" required />
+                </div>
+                <div class="form-row input">
+                    <label for="re-password">Password                    </label>
+
+                    <input type="password" name="re-password" id="re-password" required />
+                </div>
+                <div class="form-row checkbox">
+                    <input type="checkbox" name="remember" id="remember">
+                    <label for="remember">Remember me</label>
+                    <!-- <a href="./forgot-password/" class="forgot">Forgot password?</a> -->
+                </div>
+                <div class="form-row buttons">
+                    <button class="button blue">Sign up</button>
+                    <a class="button white" href="../">Login</a>
+                </div>
+            </form>
+            <div class="bottom-links">
+                <p class="bottom-text">Or register with</p>
+                <a href="#" class="links" target="_blank">Facebook</a>
+                <a href="#" class="links" target="_blank">Linkedin</a>
+                <a href="#" class="links" target="_blank">Google</a>
+            </div>
+        </div>
+        <div class="right-column">
+            <img src="../img/background.jpg" alt="background image" class="background">
+        </div>
+    </main>
 </body>
 </html>
